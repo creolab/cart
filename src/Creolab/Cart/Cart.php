@@ -19,4 +19,13 @@ class Cart extends Collection {
 		}
 	}
 
+	/**
+	 * Create new cart
+	 * @return void
+	 */
+	public function create()
+	{
+
+	}
+
 }
