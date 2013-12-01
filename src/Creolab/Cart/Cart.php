@@ -133,6 +133,18 @@ class Cart {
 	}
 
 	/**
+	 * Remove single item by ID
+	 * @param  string $id
+	 * @return void
+	 */
+	public function remove($id)
+	{
+		$this->items->forget($id);
+
+		$this->refresh();
+	}
+
+	/**
 	 * Empty items from cart
 	 * @return void
 	 */
