@@ -16,9 +16,6 @@
         "mockery/mockery": ">=0.7.2"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Creolab\\Cart": "src/"
         }
